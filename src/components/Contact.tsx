@@ -16,7 +16,7 @@ const contacts: ContactRow[] = [
   {
     label: 'Email',
     value: profile.contact.email,
-    href: `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(profile.contact.email)}`,
+    href: `mailto:${profile.contact.email}`,
     icon: Mail,
   },
   {
@@ -99,9 +99,7 @@ export function Contact() {
           </div>
           <div className="flex flex-wrap items-center gap-3">
             <a
-              href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(profile.contact.email)}`}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={`mailto:${profile.contact.email}`}
               className="btn btn-primary"
             >
               Send an email
