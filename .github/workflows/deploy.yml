@@ -1,6 +1,5 @@
 name: Deploy to GitHub Pages
 
-# Deploy the static site on every push to the default branch.
 on:
   push:
     branches: [main, master]
@@ -12,8 +11,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages-deploy
-  url: ${{ steps.deployment.outputs.page_url }}
+  group: pages
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -21,32 +20,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
 
       - run: npm ci
 
-      - name: Detect base path
-        id: base
-        run: |
-          # User / organisation site  -> https://<owner>.github.io
-          # Project site            -> https://<owner>.github.io/<repo>/
-          if [[ "${GITHUB_REPOSITORY}" == "${GITHUB_REPOSITORY_OWNER}.github.io" ]]; then
-            echo "href=/" >> "$GITHUB_OUTPUT"
-          else
-            echo "href=/${GITHUB_REPOSITORY#*/}/" >> "$GITHUB_OUTPUT"
-          fi
-
       - name: Build
         run: npm run build
         env:
-          VITE_BASE_HREF: ${{ steps.base.outputs.href }}
+          VITE_BASE_HREF: /Samriddhi-Sharma-Maraseni/
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
@@ -57,6 +43,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
