@@ -6,7 +6,7 @@ import { conferences, volunteering } from '../data/conferences'
 
 export function Experience() {
   return (
-    <Section id="experience">
+    <Section id="experience" revealed={false}>
       <SectionHeading label="Experience &amp; Leadership" />
 
       <Subheading label="Professional Work Experience" />

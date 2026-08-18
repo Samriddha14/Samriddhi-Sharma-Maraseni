@@ -41,7 +41,7 @@ export function Reveal({ children, className, delayMs = 0 }: RevealProps) {
           }
         })
       },
-      { threshold: 0.1 },
+      { threshold: 0.01 },
     )
     obs.observe(el)
     return () => obs.disconnect()
