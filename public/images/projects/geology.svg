@@ -1,0 +1,16 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="800" height="500" fill="#faf8f5"/>
+  <g stroke="#4b5563" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120 380 L120 300 L160 270 L200 300 L200 380 Z"/>
+    <path d="M200 380 L200 310 L240 280 L280 310 L280 380 Z"/>
+    <path d="M280 380 L280 300 L320 270 L360 300 L360 380 Z"/>
+    <path d="M360 380 L360 310 L400 280 L440 310 L440 380 Z"/>
+    <path d="M440 380 L440 300 L480 270 L520 300 L520 380 Z"/>
+    <path d="M520 380 L520 310 L560 280 L600 310 L600 380 Z"/>
+    <path d="M600 380 L600 300 L640 270 L680 300 L680 380 Z"/>
+    <line x1="120" y1="380" x2="680" y2="380" stroke="#1e3a8a" stroke-width="2"/>
+    <path d="M140 380 L140 410 M140 410 L120 410" stroke="#1e3a8a" stroke-width="2"/>
+    <path d="M140 400 L120 400" stroke="#1e3a8a" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="400" y="440" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="#616e7c">Geological profile</text>
+  </g>
+</svg>

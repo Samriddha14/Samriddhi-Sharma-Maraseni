@@ -1,0 +1,13 @@
+<svg width="200" height="240" viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+  <rect x="6" y="6" width="188" height="228" rx="14" fill="#faf8f5" stroke="#d4d8df" stroke-width="2"/>
+  <!-- neutral head-and-shoulders silhouette (placeholder for a professional portrait) -->
+  <path d="M100 58
+           C78 58, 62 74, 62 96
+           C62 108, 68 116, 78 118 C78 118, 60 122, 60 138
+           C60 146, 66 152, 74 152 L126 152
+           C134 152, 140 146, 140 138
+           C140 122, 122 118, 122 118
+           C132 116, 138 108, 138 96
+           C138 74, 122 58, 100 58 Z"
+        fill="#9ca3af"/>
+</svg>

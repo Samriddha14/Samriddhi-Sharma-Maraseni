@@ -1,0 +1,12 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="800" height="500" fill="#faf8f5"/>
+  <g stroke="#4b5563" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120 360 L120 300 L180 260 L240 300 L240 360 Z M150 330 L150 360 L180 360 L180 330 Z"/>
+    <rect x="220" y="290" width="80" height="70" fill="#d1d5db"/>
+    <path d="M200 360 C200 340, 240 320, 280 320 C320 320, 360 340, 360 360" fill="#1e3a8a" fill-opacity="0.2"/>
+    <path d="M300 360 L300 220 L380 170 L460 220 L460 360 Z" fill="none" stroke="#1f2933"/>
+    <rect x="370" y="220" width="20" height="140" fill="#1e3a8a"/>
+    <path d="M300 360 Q380 420 460 360" fill="none" stroke="#1e3a8a"/>
+    <text x="400" y="440" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="#616e7c">Cross-section — channel flow</text>
+  </g>
+</svg>

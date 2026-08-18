@@ -1,0 +1,13 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="800" height="500" fill="#faf8f5"/>
+  <g stroke="#4b5563" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="140" y="260" width="520" height="120" fill="#d1d5db" stroke="#1f2933" stroke-width="2"/>
+    <rect x="140" y="180" width="520" height="80" fill="#e5e7eb" stroke="#1f2933" stroke-width="2" stroke-dasharray="8 8"/>
+    <rect x="200" y="100" width="120" height="80" fill="#f3f4f6"/>
+    <path d="M160 180 L160 380 M660 180 L660 380" stroke="#1e3a8a" stroke-width="2"/>
+    <path d="M160 260 L120 280 M660 260 L700 280" stroke="#1e3a8a" stroke-width="2"/>
+    <rect x="200" y="300" width="80" height="60" fill="#9ca3af"/>
+    <text x="240" y="335" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#1f2933">2 mm</text>
+  </g>
+  <text x="400" y="480" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="#616e7c">Soil gradation & sieve analysis</text>
+</svg>

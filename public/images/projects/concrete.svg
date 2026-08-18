@@ -1,0 +1,12 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="800" height="500" fill="#faf8f5"/>
+  <g stroke="#4b5563" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="260" y="120" width="280" height="300" fill="#d1d5db" stroke="#1f2933" stroke-width="2"/>
+    <path d="M300 420 L300 200 L500 200 L500 420 Z"/>
+    <rect x="360" y="320" width="80" height="100" fill="#9ca3af"/>
+    <path d="M340 420 L400 460 L460 420" fill="#1e3a8a"/>
+    <rect x="370" y="360" width="60" height="20" fill="#ffffff"/>
+    <text x="400" y="460" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" fill="#1f2933">slump cone</text>
+  </g>
+  <text x="400" y="480" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="#616e7c">Concrete test specimen</text>
+</svg>
